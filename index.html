@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="shortcut icon" href="images/favicon.png"> -->
+    <title>Taskmanager &mdash; Your all-in-one task managing app</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="images/logo.png" alt="taskmanager logo" class="logo">
+
+            <form class="search" action="#">
+                <input type="text" class="search__input" placeholder="Seach Tasks">
+
+                <button type="button" name="button" class="search__button">
+                    <svg class="search__icon">
+                        <use xlink:href="images/sprite.svg#icon-magnifying-glass"></use>
+                    </svg>
+                </button>
+            </form>
+            <nav class="user-nav">
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="images/sprite.svg#icon-bookmark"></use>
+                    </svg>
+                    <span class="user-nav__notification">7</span>
+                </div>
+                <div class="user-nav__icon-box">
+                    <svg class="user-nav__icon">
+                        <use xlink:href="images/sprite.svg#icon-chat"></use>
+                    </svg>
+                    <span class="user-nav__notification">13</span>
+                </div>
+                <div class="user-nav__user">
+                    <img src="images/user.png" alt="usre photo" class="user-nav__user-photo">
+                    <span class="user__nav__user-name">Karan</span>
+                </div>
+            </nav>
+        </div>
+        <div class="content">
+            <nav class="sidebar">
+                <ul class="side-nav">
+                    <li class="side-nav__item side-nav__item--active">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="images/sprite.svg#icon-layers"></use>
+                            </svg>
+                            <span>recent</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="images/sprite.svg#icon-time-slot"></use>
+                            </svg>
+                            <span>activities</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="images/sprite.svg#icon-text-document"></use>
+                            </svg>
+                            <span>daily routines</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="images/sprite.svg#icon-users"></use>
+                            </svg>
+                            <span>social</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="images/sprite.svg#icon-tree"></use>
+                            </svg>
+                            <span>outings</span>
+                        </a>
+                    </li>
+                    <li class="side-nav__item">
+                        <a href="#" class="side-nav__link">
+                            <svg class="side-nav__icon">
+                                <use xlink:href="images/sprite.svg#icon-add-to-list"></use>
+                            </svg>
+                            <span>add categories</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="legal">
+                    Copyright &copy; 2019 Copyright Holder All Rights Reserved.
+                </div>
+            </nav>
+            <main class="task-view">
+                <div class="gallery">
+                    <figure class="gallery__item">
+                        <img src="images/pic1.jpg" alt="photo" class="gallery__photo">
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="images/pic2.jpg" alt="photo" class="gallery__photo">
+                    </figure>
+                    <figure class="gallery__item">
+                        <img src="images/pic3.jpg" alt="photo" class="gallery__photo">
+                    </figure>
+                </div>
+
+                <div class="overview">
+                    <h1 class="overview__heading">
+                        Hotel Las Palmas
+                    </h1>
+                    <div class="overview__stars">
+                        <svg class="overview__icon-star">
+                            <use xlink:href="images/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="images/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="images/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="images/sprite.svg#icon-star"></use>
+                        </svg>
+                        <svg class="overview__icon-star">
+                            <use xlink:href="images/sprite.svg#icon-star"></use>
+                        </svg>
+                    </div>
+
+                    <div class="overview__location">
+                        <svg class="overview__icon-location">
+                            <use xlink:href="images/sprite.svg#icon-location-pin"></use>
+                        </svg>
+                        <button class="btn-inline">IIEST Shibpur, West Bengal</button>
+                    </div>
+
+                    <div class="overview__rating">
+                        <div class="overview__rating-average">8.6</div>
+                        <div class="overview__rating-count">429 votes</div>
+                    </div>
+                </div>
+
+                <div class="details">
+                    <div class="details__routine">
+
+                    </div>
+
+                    <div class="details__task">
+
+                    </div>
+
+
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
